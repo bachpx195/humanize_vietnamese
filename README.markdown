@@ -48,6 +48,6 @@ Install development dependencies by running `bundle install`.
 You can run testing by calling `rspec`.
 
 
-## reference source
+## Reference source
 
 https://github.com/radar/humanize
