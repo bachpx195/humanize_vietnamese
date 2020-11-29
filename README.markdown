@@ -18,22 +18,28 @@ Converts numbers to strings in Vietnamese.
 ### Clone this repository
 
 ```bash
-git clone
+git clone https://github.com/dongta195/humanize_vietnamese.git
 ```
 
 ### Run console
 
-```ruby
-require 'humanize_vietnamese'
+```base 
+cd humanize_vietnamese
+
+bin/console
 ```
 
 ### Call the method on the numbers
 
 ```ruby
-100.humanize_vi => "one hundred"
-1001.humanize_vi => "one thousand and one"
-0.001.humanize_vi => "zero point zero zero one"
+100.humanize_vi => "một trăm"
+1001.humanize_vi => "một nghìn, không trăm linh một"
+123456789.humanize_vi => "một trăm hai ba triệu, bốn trăm năm sáu nghìn, bảy trăm tám chín"
 ```
+
+### Screen Shot
+
+
 
 ## Testing
 
