@@ -45,5 +45,5 @@ bin/console
 
 Install development dependencies by running `bundle install`.
 
-You can run mutation testing by calling `rspec`.
+You can run testing by calling `rspec`.
 
